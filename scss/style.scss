@@ -8,12 +8,14 @@ body {
 header {
     margin-top: 2.5rem;
 }
-main {
+main,
+footer {
     margin-top: 5rem;
 }
 .header-block,
 .main-left-column-block,
-.main-right-column__block {
+.main-right-column__block,
+.footer__block {
     background-color: #696969;
     min-height: 10rem;
 }
@@ -25,4 +27,13 @@ main {
 .main-left-column-row {
     flex-direction: column;
     justify-content: space-between;
+}
+.footer__block_large {
+    min-height: 20rem;
+}
+.footer__block_small {
+    &:first-of-type {
+        margin-bottom: 2rem;
+    }
+    min-height: 9rem;
 }
