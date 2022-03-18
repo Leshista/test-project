@@ -1,6 +1,7 @@
 @mixin blocks {
     background-color: #696969;
     min-height: 10rem;
+    background-position: center;
 }
 
 html {
@@ -39,6 +40,7 @@ body {
         &__block {
             @include blocks;
             min-height: 12.5rem;
+            background-position: center;
             &_large {
                 min-height: 30rem;
             }
@@ -79,6 +81,14 @@ body {
             &_7 {
                 background-image: url("../img/67.jpg");
                 background-size: cover;
+            }
+            &_active {
+                transition-property: box-shadow;
+                transition-duration: 200ms;
+                &:hover {
+                    cursor: pointer;
+                    box-shadow: 0 0 10px #696969;
+                }
             }
             &_large {
                 min-height: 20rem;
@@ -130,6 +140,8 @@ body {
             min-height: 50rem;
             min-width: 50rem;
             background-color: #696969;
+            background-size: cover;
+            background-position: center;
             z-index: 2;
         }
         &__id {
