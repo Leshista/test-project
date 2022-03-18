@@ -11,7 +11,7 @@ body {
     max-width: 90rem;
     margin: 0 auto;
 }
-
+// ===== HEADER =====
 .header {
     margin-top: 2.5rem;
     &__block {
@@ -25,6 +25,7 @@ body {
         }
     }
 }
+// ===== MAIN =====
 .main {
     margin-top: 5rem;
     .main-left-column {
@@ -99,6 +100,7 @@ body {
         }
     }
 }
+// ===== FOOTER =====
 .footer {
     margin: 5rem 0 2.5rem 0;
     &__block {
@@ -119,6 +121,7 @@ body {
         }
     }
 }
+// ===== BACKDROP AND MODAL =====
 .backdrop {
     background-color: #25252585;
     position: fixed;
