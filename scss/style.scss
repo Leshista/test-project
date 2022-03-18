@@ -12,21 +12,30 @@ main,
 footer {
     margin-top: 5rem;
 }
-.header-block,
-.main-left-column-block,
-.main-right-column__block,
+.header__block,
+.main-left-column__block,
 .footer__block {
     background-color: #696969;
     min-height: 10rem;
 }
 .main-left-column,
-.main-left-column-container,
-.main-left-column-row {
+.main-left-column__container,
+.main-left-column__row {
     height: 100%;
 }
-.main-left-column-row {
+.main-left-column__row {
     flex-direction: column;
     justify-content: space-between;
+}
+.main-left-column__block_large {
+    min-height: 30rem;
+}
+.main-right-column__block {
+    background-color: #696969;
+    min-height: 12.5rem;
+}
+.main-right-column__block_large {
+    min-height: 20rem;
 }
 .footer__block_large {
     min-height: 20rem;
@@ -36,4 +45,7 @@ footer {
         margin-bottom: 2rem;
     }
     min-height: 9rem;
+}
+footer {
+    margin-bottom: 2.5rem;
 }
