@@ -17,3 +17,12 @@ main {
     background-color: #696969;
     min-height: 10rem;
 }
+.main-left-column,
+.main-left-column-container,
+.main-left-column-row {
+    height: 100%;
+}
+.main-left-column-row {
+    flex-direction: column;
+    justify-content: space-between;
+}
