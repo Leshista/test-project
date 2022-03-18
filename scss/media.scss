@@ -1,0 +1,14 @@
+@media (max-width: 992px) {
+    .header__block {
+        min-height: 20rem;
+    }
+    .main-left-column__block {
+        min-height: 70rem !important;
+    }
+    .main-left-column__block_large {
+        margin-bottom: 5rem;
+    }
+    .main-right-column__block_large {
+        margin-top: 5rem;
+    }
+} ;
